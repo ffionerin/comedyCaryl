@@ -1,73 +1,116 @@
+/* Rest of your CSS rules... */
+
+header nav a {
+    font-weight: bold;
+    color: #233a44;
+    font-size: 18px
+}
+
+header nav a:hover {
+    text-decoration: underline;
+    color: #233a44; /* Underline the link on hover */
+}
 
 /* jumbotron styling */
 .jumbotron {
+    background-image: url('../images/jumbotron.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
     display: flex;
-    justify-items: center;
     align-items: center;
-}
-.jumbotron div {
-    margin: auto;
-    padding: 10px;
-}
-
-
-/* styles to make images on top of card consistent */
-.card-img-top {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Set the desired height of the jumbotron */
+  }
+  
+  h1 {
+    color: #233a44;
+    font-weight: bolder;
+    font-size: 100px;
+    padding: 2px;
+    margin: 2px
+  }
+  
+  /* styles to make images on top of card consistent */
+  .card-img-top {
     width: 100%;
     height: 35vw;
     max-height: 200px;
     object-fit: cover;
-}
-
-/* card margins */
-.card {
-    margin: 15px;
-}
-
-/* skills section styling */
-#skills .row {
-    align-items: center;
-}
-
-#skills img {
-    width: 90%;
-}
-
-/* footer styling */
-footer {
+  }
+  
+  /* card margins */
+  .card {
+    margin: 5px;
+  }
+  
+  #about p {
+    color: #233A44;
+  }
+  
+  /* Target <p> elements under the element with ID "contact" */
+  #contact p {
+    color: #233A44;
+  }
+  
+  /* footer styling */
+  footer {
     height: min-content;
     margin-top: 15px;
     background-color: min-content;
-    }
-
-footer div {
+  }
+  
+  footer div {
     padding: 12px 0px 0px 0px;
-}
-
-footer p {
+  }
+  
+  footer p {
     margin: 0px;
-}
-
-footer i {
+  }
+  
+  footer i {
     height: 25px;
     font-size: x-large;
     padding: 0px 15px 0px 15px;
-}
-
-footer .btn {
+  }
+  
+  footer .btn {
     margin: 0px 10px 5px 10px;
     width: 80px;
-}
-
-/* hover effect for buttons (shadow) */
-button:hover,
-.btn:hover {
+  }
+  
+  /* hover effect for buttons (shadow) */
+  button:hover,
+  .btn:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-/* responsivity for small screen size: skills image removed */
-@media screen and (max-width: 767px) {
-    #skills img {
-        display: none
+  }
+  
+  /* responsivity for small screen size: skills image removed */
+  @media screen and (max-width: 767px) {
+    .jumbotron {
+      background-image: url(../images/smalljumbo.png);
     }
-}
+  }
+  
+  /* Media query for screen size 400px or less */
+  @media screen and (max-width: 600px) {
+    h1 {
+      font-size: 80px; /* Set the font size to 50px */
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    h1 {
+      font-size: 60px; /* Set the font size to 50px */
+    }
+  }
+  
+  @media screen and (min-width: 767px) {
+    h1 {
+      display: none;
+    }
+  }
+  
