@@ -1,1 +1,101 @@
-Contact
+<!DOCTYPE html>
+<html lang="en-gb">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Bootstap link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- link to fontawesome for icons -->
+    <script src="https://kit.fontawesome.com/89f4d0008c.js" crossorigin="anonymous"></script>
+    <!-- css link (placed after bootstrapt to override) -->
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="icon" type="image/x-icon"
+        href="../images/38-382648_girl-emoji-iphone-iphoneemoji-emoticon-girl-emoji-hd.png">
+    <title>Upcoming Gigs</title>
+    <style>
+        /* Add the following CSS style for the footer */
+        .footer-band {
+            background-color: #B1D4E0;
+        }
+
+        .footer-band a {
+            color: #233a44;
+        }
+    </style>
+</head>
+
+<!-- navigation bar using bootstrap -->
+
+<body>
+    <header class="d-flex flex-column flex-md-row align-items-center p-3 px-md-3 border-bottom shadow-sm navbar-light">
+        <!-- <h4 class="my-0 mr-md-auto font-weight-normal">Welcome to my portfolio</h4> -->
+        <nav class="my-2 my-md-0 ml-md-auto"> <!-- Changed mr-md-3 to ml-md-auto -->
+            <a class="p-2" href="../index.html">Home</a>
+            <a class="p-2" href="upcoming.html">Upcoming Gigs</a>
+            <a class="p-2" href="media.html">Media</a>
+        </nav>
+    </header>
+
+
+    <!-- hero section with a jumbotron-->
+    <div class="jumbotron text-center bg-dark text-white">
+    </div>
+
+    <section class="container">
+        <div class="row">
+            <div class="cardContainer col-lg-12 col-md-12 col-sm-12 justify-content-center">
+                <div class="card shadow" id="gigs">
+                    <form action="process_form.php" method="post">
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Your name</label>
+                            <input type="name" class="form-control"
+                                placeholder="Joe Bloggs">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Your email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="name@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Your message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <div class="btn-container">
+                            <button type="submit" class="btn btn-outline-dark">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- footer section including links to social media -->
+    <footer class="text-center text-white footer-band">
+        <div class="container">
+            <button class="btn">
+                <a href="https://www.threads.net/@carylbcomedy" class="me-4">
+                    <i class="fab fa-threads"></i>
+                </a>
+            </button>
+            <button class="btn">
+                <a href="https://www.facebook.com/caryl.burke" class="me-4">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </button>
+            <button class="btn">
+                <a href="https://www.instagram.com/carylbcomedy/" class="me-4">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </button>
+        </div>
+    </footer>
+</body>
+
+</html>

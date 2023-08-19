@@ -1,0 +1,148 @@
+/* Rest of your CSS rules... */
+
+header nav a {
+  font-weight: bold;
+  color: #233a44;
+  font-size: 18px
+}
+
+header nav a:hover {
+  text-decoration: underline;
+  color: #233a44; /* Underline the link on hover */
+}
+
+.btn {
+  margin: 10px;
+  
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center; /* Horizontally center-align the button */
+  height: 100%; /* Make the container take full height */
+  align-content: center;
+}
+
+/* jumbotron styling */
+.jumbotron {
+  background-image: url('../images/contactLarge.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Set the desired height of the jumbotron */
+}
+
+/* .card-body h2 {
+  color: #233A44;
+  font-weight: bolder;
+  padding-top: 15px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px
+}
+
+
+.card-body h3 {
+  color: #233A44;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 15px;
+  padding-left: 0px
+}
+
+.card-body h4 {
+  color: #233A44;
+  padding-top: 15px;
+  font-style: italic;
+} */
+
+/* styles to make images on top of card consistent */
+/* card margins */
+.card {
+  margin: 5px;
+}
+
+.form-group {
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 0px;
+}
+
+.card-body {
+text-align: center;
+}
+/* Target <p> elements under the element with ID "contact" */
+#contact p {
+  color: #233A44;
+}
+
+/* footer styling */
+footer {
+  height: min-content;
+  margin-top: 15px;
+  background-color: min-content;
+}
+
+footer div {
+  padding: 12px 0px 0px 0px;
+}
+
+footer p {
+  margin: 0px;
+}
+
+footer i {
+  height: 25px;
+  font-size: x-large;
+  padding: 0px 15px 0px 15px;
+}
+
+footer .btn {
+  margin: 0px 10px 5px 10px;
+  width: 80px;
+}
+
+/* hover effect for buttons (shadow) */
+button:hover,
+.btn:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* responsivity for small screen size: skills image removed */
+ @media screen and (max-width: 760px) {
+  .jumbotron {
+    height: 250px;
+  }
+} 
+
+@media screen and (max-width: 540px) {
+  .jumbotron {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .jumbotron {
+    background-image: url('../images/contactSmall.png');
+  }
+}
+
+/* @media screen and (max-width: 648px) {
+  .jumbotron {
+    background-image: url(../images/carylbannersmall.png);
+  }
+}
+
+@media screen and (max-width: 477px) {
+  .jumbotron {
+    background-image: url(../images/carylbannerxsmall2.png);
+  }
+} */
+
