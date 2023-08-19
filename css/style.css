@@ -13,7 +13,7 @@ header nav a:hover {
 
 /* jumbotron styling */
 .jumbotron {
-    background-image: url('../images/jumbotron.png');
+    background-image: url('../images/Caryl\ banner\ -\ large\ screen.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -89,9 +89,9 @@ header nav a:hover {
   }
   
   /* responsivity for small screen size: skills image removed */
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 925px) {
     .jumbotron {
-      background-image: url(../images/smalljumbo.png);
+      background-image: url(../images/Caryl\ banner\ -\ medium.png);
     }
   }
   
