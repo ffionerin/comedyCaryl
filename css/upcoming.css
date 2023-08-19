@@ -105,13 +105,25 @@ header nav a:hover {
   }
   
   /* responsivity for small screen size: skills image removed */
-  /* @media screen and (max-width: 925px) {
+   @media screen and (max-width: 760px) {
     .jumbotron {
-      background-image: url(../images/Caryl\ banner\ -\ medium.png);
+      height: 250px;
+    }
+  } 
+
+  @media screen and (max-width: 540px) {
+    .jumbotron {
+      height: 200px;
     }
   }
 
-  @media screen and (max-width: 648px) {
+  @media screen and (max-width: 428px) {
+    .jumbotron {
+      background-image: url('../images/upcomingSmall.png');
+    }
+  }
+
+  /* @media screen and (max-width: 648px) {
     .jumbotron {
       background-image: url(../images/carylbannersmall.png);
     }
@@ -121,6 +133,6 @@ header nav a:hover {
     .jumbotron {
       background-image: url(../images/carylbannerxsmall2.png);
     }
-  }
-   */
+  } */
+  
  
