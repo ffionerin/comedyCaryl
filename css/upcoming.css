@@ -13,11 +13,11 @@ header nav a:hover {
 
 /* jumbotron styling */
 .jumbotron {
-    background-image: url('../images/Caryl\ banner\ -\ large\ screen.png');
+    background-image: url('../images/upcomingLarge.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 500px;
+    height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,7 +26,7 @@ header nav a:hover {
     justify-content: flex-start; /* Set the desired height of the jumbotron */
   }
   
-  h1 {
+  h2 {
     color: #233a44;
     font-weight: bolder;
     font-size: 100px;
@@ -47,7 +47,7 @@ header nav a:hover {
     margin: 5px;
   }
   
-  #gigs h3 {
+  #about p {
     color: #233A44;
   }
   
@@ -89,7 +89,7 @@ header nav a:hover {
   }
   
   /* responsivity for small screen size: skills image removed */
-  @media screen and (max-width: 925px) {
+  /* @media screen and (max-width: 925px) {
     .jumbotron {
       background-image: url(../images/Caryl\ banner\ -\ medium.png);
     }
@@ -106,5 +106,5 @@ header nav a:hover {
       background-image: url(../images/carylbannerxsmall2.png);
     }
   }
-  
+   */
  
