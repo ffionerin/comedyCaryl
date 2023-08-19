@@ -94,23 +94,17 @@ header nav a:hover {
       background-image: url(../images/Caryl\ banner\ -\ medium.png);
     }
   }
-  
-  /* Media query for screen size 400px or less */
-  @media screen and (max-width: 600px) {
-    h1 {
-      font-size: 80px; /* Set the font size to 50px */
+
+  @media screen and (max-width: 648px) {
+    .jumbotron {
+      background-image: url(../images/carylbannersmall.png);
     }
   }
 
-  @media screen and (max-width: 600px) {
-    h1 {
-      font-size: 60px; /* Set the font size to 50px */
+  @media screen and (max-width: 477px) {
+    .jumbotron {
+      background-image: url(../images/carylbannerxsmall.png);
     }
   }
   
-  @media screen and (min-width: 767px) {
-    h1 {
-      display: none;
-    }
-  }
-  
+ 
