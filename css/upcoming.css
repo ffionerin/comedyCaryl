@@ -26,12 +26,28 @@ header nav a:hover {
     justify-content: flex-start; /* Set the desired height of the jumbotron */
   }
   
-  h2 {
-    color: #233a44;
+  .card-body h2 {
+    color: #233A44;
     font-weight: bolder;
-    font-size: 100px;
-    padding: 2px;
-    margin: 2px
+    padding-top: 15px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px
+  }
+
+
+  .card-body h3 {
+    color: #233A44;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 15px;
+    padding-left: 0px
+  }
+
+  .card-body h4 {
+    color: #233A44;
+    padding-top: 15px;
+    font-style: italic;
   }
   
   /* styles to make images on top of card consistent */
@@ -47,10 +63,10 @@ header nav a:hover {
     margin: 5px;
   }
   
-  #about p {
-    color: #233A44;
-  }
-  
+ 
+.card-body {
+  text-align: center;
+}
   /* Target <p> elements under the element with ID "contact" */
   #contact p {
     color: #233A44;
